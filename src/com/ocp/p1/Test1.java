@@ -1,4 +1,4 @@
-package com.ocp.p2;
+package com.ocp.p1;
 
 public class Test1 {
     String name;
