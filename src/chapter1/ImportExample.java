@@ -1,4 +1,4 @@
-package com.ocp;
+package chapter1;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.ocp;
+package chapter1;
 
 public class SingleFileZoo {
     public static void main(String[] args) {

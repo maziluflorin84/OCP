@@ -1,9 +1,9 @@
-package com.ocp.p1;
+package chapter1.pack;
 
-public class Test1 {
+public class Test {
     String name;
 
-    public Test1() {
+    public Test() {
         this.name = "test" + new Test2().string() + new Test3().string();
     }
 
