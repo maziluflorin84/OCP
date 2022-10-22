@@ -2,7 +2,7 @@ package com.ocp;
 
 import com.ocp.p1.Test1;
 
-public class Test {
+public class Something {
     public static void main(String[] args) {
         Test1 test1 = new Test1();
 
