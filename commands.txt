@@ -1,0 +1,8 @@
+Build main class and imported classes to different location
+javac -d out/production/OCP src/chapter1/pack/* src/chapter1/Something.java
+
+Run main class
+java -cp out/production/OCP chapter1.Something one two three four
+
+Delete output
+del -r out\production\OCP\chapter1\*
