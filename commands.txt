@@ -1,4 +1,4 @@
-Build main class and imported classes to different location
+Compiling main class and imported classes to different location
 javac -d out/production/OCP src/chapter1/pack/* src/chapter1/Something.java
 
 Run main class
@@ -6,3 +6,16 @@ java -cp out/production/OCP chapter1.Something one two three four
 
 Delete output
 del -r out\production\OCP\chapter1\*
+
+Compiling with JAR files
+- on Windows
+java -cp ".;C:\temp\someOtherLocation;C:\temp\myJar.jar" myPackage.myClass
+    - with wildcard
+    java -cp "C:\temp\directoryWithJars\*" myPackage.myClass
+- on macOS/Linux
+java -cp ".:/tmp/someOtherLocation:/tmp/myJar.jar" myPackage.myClass
+    - with wildcard
+    java -cp ":/tmp/directoryWithJars/*" myPackage.myClass
+
+Create a JAR file
+jar -cvf myNewFile.jar -C dir .

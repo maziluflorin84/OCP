@@ -1,4 +1,4 @@
-package chapter1.ComRunCodeWithPack.p2;
+package chapter1.pag023.p2;
 
 public class ClassB {
     public static void main(String[] args) {
