@@ -1,24 +1,24 @@
 package chapter2._04_initializing_variables;
 
-public class checkAnswer {
+public class CheckAnswer {
     public static void main(String[] args) {
-        
+        new CheckAnswer();
     }
 
-    private void checkAnswer() {
-        boolean value;
-        findAnswer(value);
+    public CheckAnswer() {
+        boolean value = true;
+        System.out.println(findAnswer(value));
     }
 
-    private void findAnswer(boolean check) {
+    private int findAnswer(boolean check) {
         int answer;
         int otherAnswer;
         int onlyOneBranch;
         if (check) {
             onlyOneBranch = 1;
-            answer = 1;
+            return answer = 1;
         } else {
-            answer = 2;
+            return answer = 2;
         }
     }
 }
